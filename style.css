@@ -95,6 +95,7 @@ body {
 
 .header-down {
     position: relative;
+    margin-top: 100px;
 }
 
 .header-title {
@@ -721,6 +722,9 @@ button {
 @media (max-width: 490px) {
     .cook-content img {
         width: 100%;
+    }
+    .header-down {
+        margin-top: 0;
     }
 }
 
